@@ -1,0 +1,61 @@
+chunks:
+
+-
+    title: "M404 - Programación Matemática 1"
+    id: welcome
+    rules:
+    -
+        if_after: 2018-09-01
+        if_before: 2038-01-01 13:00:00 -5
+        weight: 100
+
+    -
+        weight: 0
+
+    content: |
+
+
+
+        # M404 - Programación Matemática 1
+
+        <img src="repo:images/fractal.jpg" width = "40%" height = "40%">
+
+        ## Generalidades del curso
+        El curso M404 - Programación Matemática 1 se imparte los días Lunes, Martes, Jueves y Viernes
+        
+        **Horario:** 11:40 a 12:30
+        
+        **Lugar:** Edificio T-3 salón 414 o 214 (se usará este último salón los días que se necesite cañonera)
+
+        **Horas de oficina:** El estudiante podrá consultar dudas acerca del curso en el edificio T-1
+        Laboratorio II (antigua FISIRED), en horario de 9:00 am a 10:30 am. Cualquier consulta fuera de ese horario
+        deberá ser solicitada por vía [electrónica](mailto:admin@hagarcia.com)   
+
+        Puedes descargar el programa del curso [acá](repocur:pdfs/m404-S2018.pdf)
+
+        Toma en cuenta que debes cumplir con las [reglas del curso](staticpage:reglas)
+
+        ## Tareas
+        [Tarea 1](flow:tarea1)
+
+        
+
+-
+    title: "Exam pointer"
+
+    id: exam_pointer
+    rules:
+    -
+        if_in_facility: test_center
+        if_after: 2015-06-01
+        weight: 200
+
+    -
+        shown: True
+        weight: 0
+
+    content: |
+
+        # Welcome to the computer-based testing facility!
+
+        <a href="flow:exam-1" class="btn btn-default">Start exam &raquo;</a>
