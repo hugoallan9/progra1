@@ -33,11 +33,11 @@ rules:
 
     grading:
     -
-        if_completed_before: Tarea 1
+        if_completed_before: 2018-08-24
         credit_percent: 100
 
     -
-        if_completed_before: 2018-08-24
+        if_completed_before: 2018-08-27
         credit_percent: 50
 
     -
