@@ -74,5 +74,19 @@ groups:
             Se enumeran los primeros seis números primos: 2, 3, 5, 7, 11 y 13. Se puede observar que el sexto primo es 13.
             ¿Cuál será el número primo que ocupe la posición número 10,001?
 
+-
+    id: problema3
+    pages: 
+    -
+        type: PythonCodeQuestion
+        id: tarea1Problema3
+        value: 25
+        timeout: 20
+        prompt: |
+
+            # Ejercicio 3
+            Escriba un programa en python que pida al usuario un número natural (debe validarlo) y escriba en orden ascendente los números naturales menores o iguales al número
+            pedido
+
 
 
