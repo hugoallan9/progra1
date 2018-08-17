@@ -9,7 +9,7 @@ description: |
 rules:
     start:
     -
-        if_before: Tarea 1
+        if_before: 2018-08-24
         if_has_role: [student, ta, instructor]
         if_has_fewer_sessions_than: 5
         may_start_new_session: True
