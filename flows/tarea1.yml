@@ -63,12 +63,5 @@ groups:
 
 
 
-        rubric: |
 
-            Para obtener la calificación completa deberá cumplir:
-
-            * Usar los temas vistos en clase para la solución (20%)
-            * Uso de buenas prácticas vistas en clase (30%)
-            * Solución correcta (30%)
-            * Código en python3.x (10%)
 
