@@ -50,6 +50,7 @@ groups:
         type: PythonCodeQuestion
         id: tarea1Problema1
         value: 25
+        timeout: 20
         maximum_megabytes: 5
         prompt: |
 
@@ -68,7 +69,7 @@ groups:
             Para obtener la calificación completa deberá cumplir:
 
             * Usar los temas vistos en clase para la solución (20%)
-            * Uso de LaTeX (30%)
-            * Correcta argumentación (30%)
-            * No tener errores en la argumentación de un problema elegido al azar (10%)
+            * Uso de buenas prácticas vistas en clase (30%)
+            * Solución correcta (30%)
+            * Código en python3.x (10%)
 
