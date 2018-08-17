@@ -3,7 +3,7 @@ description: |
 
     # Tarea 1
 
-    Bienvenido al curso de Taller de matemática 2, en esta sección encontrarás los ejercicios que debes resolver para
+    Bienvenido al curso Programación Matemática 1, en esta sección encontrarás los ejercicios que debes resolver para
     tu tarea. 
 
 rules:
@@ -37,7 +37,7 @@ rules:
         credit_percent: 100
 
     -
-        if_completed_before: 2018-08-15
+        if_completed_before: 2018-08-24
         credit_percent: 50
 
     -
@@ -47,24 +47,21 @@ groups:
     id: intro
     pages: 
     -
-        type: FileUploadQuestion
-        id: proof
-        value: 2.5
+        type: PythonCodeQuestion
+        id: tarea1-problema1
+        value: 25
         maximum_megabytes: 5
         prompt: |
 
-            # Tarea 1
+            # Ejercicio 1
+                Un número palíndromo es aquel que se lee igual de derecha a izquierda
+                que de izquierda a derecha. El número palíndromo más grande que se puede expresar
+                como el producto de dos números de dos dígitos es 9009 (9009=91x99). Encuentre el número
+                palíndromo más grande que se puede factorizar como el producto de dos números
+                de tres dígitos cada uno. 
 
-            Debe realizar los ejercicios del texto *Problem-Solving strategies* de Arthur Engel. 
 
-            | Página        | Ejercicios     |
-            | ------------- |:-------------|
-            | 254      |    1,2,3,5,7,9 |
-            | 255      | 12,13,21,22,26,29,31      |
 
-        mime_types:
-
-            - application/pdf
 
         rubric: |
 
