@@ -48,7 +48,7 @@ groups:
     pages: 
     -
         type: PythonCodeQuestion
-        id: tarea1-problema1
+        id: tarea1Problema1
         value: 25
         maximum_megabytes: 5
         prompt: |
