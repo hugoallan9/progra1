@@ -35,6 +35,10 @@ chunks:
 
         Toma en cuenta que debes cumplir con las [reglas del curso](staticpage:reglas)
 
+        ## Códigos vistos en clase
+        Recuerde que puede ver los códigos vistos en clase en el link(https://github.com/hugoallan9/ProgramacionMatematica1-2-2018). Recuerde que los códigos
+        están elaborados en python3.x 
+
         ## Tareas
         [Tarea 1](flow:tarea1)
 
@@ -51,7 +55,7 @@ chunks:
         weight: 200
 
     -
-        shown: True
+        shown: False
         weight: 0
 
     content: |
