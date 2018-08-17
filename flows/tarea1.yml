@@ -60,8 +60,19 @@ groups:
                 palíndromo más grande que se puede factorizar como el producto de dos números
                 de tres dígitos cada uno. 
 
+-
+    id: problema2
+    pages: 
+    -
+        type: PythonCodeQuestion
+        id: tarea1Problema2
+        value: 25
+        timeout: 20
+        prompt: |
 
-
+            # Ejercicio 2
+            Se enumeran los primeros seis números primos: 2, 3, 5, 7, 11 y 13. Se puede observar que el sexto primo es 13.
+            ¿Cuál será el número primo que ocupe la posición número 10,001?
 
 
 
