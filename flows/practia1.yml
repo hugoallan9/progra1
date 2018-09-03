@@ -20,14 +20,14 @@ rules:
 
     access:
      -
-         if_before: Tarea 1
+         if_before: Practica 1
          permissions: [view, modify, see_correctness]
          message: "Recuerda que tienes una semana para entregar esta práctica"
 
      -
          permissions: [view, modify, see_correctness, see_answer_after_submission]
 
-    grade_identifier: práctica 1
+    grade_identifier: practica 1
     grade_aggregation_strategy: max_grade
 
     grading:
@@ -47,7 +47,7 @@ groups:
     pages:
     -
         type: FileUploadQuestion
-        id: practica_1
+        id: practica1
         maximum_megabytes: 10
         value: 7
         prompt: |
@@ -74,7 +74,7 @@ groups:
 
             Dicha tabla será deplegada en el navegador usando html.
 
-            *Ayuda: Lea la documentación del módulo [glob](https://docs.python.org/2/library/glob.html)
+            *Ayuda: Lea la documentación del módulo [glob](https://docs.python.org/2/library/glob.html)*
 
         mime_types:
 
