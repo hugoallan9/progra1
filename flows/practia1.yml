@@ -27,7 +27,7 @@ rules:
      -
          permissions: [view, modify, see_correctness, see_answer_after_submission]
 
-    grade_identifier: practica 1
+    grade_identifier: Practica 1
     grade_aggregation_strategy: max_grade
 
     grading:
@@ -54,7 +54,27 @@ groups:
 
             # Práctica 1
 
+           Cree un **script** que busque un texto dado en archivos con extensiones dadas en un directorio dado. Es decir,
+            el programa aceptará tres parámetros en el siguiente orden:
 
+            1. Ruta a buscar (podrá tener default, es decir, en caso de no ser dado, se usará el directorio donde se encuentra
+            el script)
+            2. Extensiones de los archivos a buscar (uno o más extensiones)
+            3. Texto a buscar en dichos archivos, encerrado por comillas simples o dobles.
+
+            Un ejemplo de la ejecución del script sería:
+            *python C:\Users\hugo .txt .tex "La matemática es muy bonita"*
+
+            El programa deberá ser compatible con Windows solamente. El script correrá en la terminal únicamente.
+
+            El programa deberá retornar un reporte en una tabla conteniendo la siguiente información:
+            | Nombre del archivo        | Número de línea     | Línea |
+            | ------------- |:-------------|:-------------|
+            | hola.txt      |    15 | es por eso que La matemática es muy bonita, más que otras ciencias |
+
+            Dicha tabla será deplegada en el navegador usando html.
+
+            *Ayuda: Lea la documentación del módulo [glob](https://docs.python.org/2/library/glob.html)*
 
         mime_types:
 
