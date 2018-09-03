@@ -8,7 +8,7 @@ description: |
 rules:
     start:
     -
-        if_before: practica1
+        if_before: Practica 1
         if_has_role: [student, ta, instructor]
         if_has_fewer_sessions_than: 2
         may_start_new_session: False
@@ -20,7 +20,7 @@ rules:
 
     access:
      -
-         if_before: practica1
+         if_before: Practica 1
          permissions: [view, modify, see_correctness]
          message: "Recuerda que tienes una semana para entregar esta práctica"
 
@@ -32,7 +32,7 @@ rules:
 
     grading:
     -
-        if_completed_before: practica1
+        if_completed_before: Practica 1
         credit_percent: 100
 
     -
