@@ -46,8 +46,9 @@ groups:
     id: intro
     pages:
     -
-        type: HumanGradedTextQuestion
+        type: FileUploadQuestion
         id: practica_1
+        maximum_megabytes: 10
         value: 7
         prompt: |
 
@@ -75,7 +76,9 @@ groups:
 
             *Ayuda: Lea la documentación del módulo [glob](https://docs.python.org/2/library/glob.html)
 
+        mime_types:
 
+            - text/plain 
 
         rubric: |
 
