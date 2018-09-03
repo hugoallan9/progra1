@@ -69,7 +69,7 @@ groups:
 
             El programa deberá retornar un reporte en una tabla conteniendo la siguiente información:
             | Nombre del archivo        | Número de línea     | Línea |
-                        | ------------- |:-------------|
+                        | ------------- |:-------------|:-------------|
                         | hola.txt      |    15 | es por eso que La matemática es muy bonita, más que otras ciencias |
 
             Dicha tabla será deplegada en el navegador usando html.
@@ -78,7 +78,7 @@ groups:
 
         mime_types:
 
-            - text/plain 
+            - text/plain
 
         rubric: |
 
