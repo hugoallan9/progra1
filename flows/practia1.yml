@@ -54,10 +54,7 @@ groups:
 
             # Práctica 1
 
-           Cree un *script* que busque un texto dado en archivos con extensiones dadas en un directorio dado. Es decir,
-            el programa aceptará tres parámetros en el siguiente orden:
 
-  
 
         mime_types:
 
