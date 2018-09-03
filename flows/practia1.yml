@@ -54,7 +54,7 @@ groups:
 
             # Práctica 1
 
-           Cree un **script** que busque un texto dado en archivos con extensiones dadas en un directorio dado. Es decir,
+           Cree un *script* que busque un texto dado en archivos con extensiones dadas en un directorio dado. Es decir,
             el programa aceptará tres parámetros en el siguiente orden:
 
             1. Ruta a buscar (podrá tener default, es decir, en caso de no ser dado, se usará el directorio donde se encuentra
