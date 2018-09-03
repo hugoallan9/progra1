@@ -47,7 +47,7 @@ groups:
     pages:
     -
         type: HumanGradedTextQuestion
-        id: proof
+        id: practica_1
         value: 7
         prompt: |
 
