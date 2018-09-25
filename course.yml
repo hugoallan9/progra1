@@ -42,15 +42,9 @@ chunks:
         ## Tareas
         [Tarea 1](flow:tarea1)
 
-<<<<<<< HEAD
-        ##Enunciado de prácticas
-        [Práctica 2](repocur:pdfs/Practica2.pdf)
-=======
         ## Prácticas
         [Práctica 1](flow:practica1)
-
->>>>>>> 07351c59fdca880bb37b0bc45041ca26d096d696
-        
+        [Práctica 2](repocur:pdfs/Practica2.pdf)
 
 -
     title: "Exam pointer"
